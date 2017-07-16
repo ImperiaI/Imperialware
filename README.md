@@ -99,7 +99,9 @@ In future I indeed intend to participate that code upon more classes, please don
 You like how the program works? Imperialware is nice but Anakin_Sklavenwalker, a friend of mine is going to build a similar 
 universal tool. But for his project he aims even higher than me: Rebuilding some areas of the EAW game engine in order to 
 integrate a new alo viewer into his Unit creator program. 
-It will take a few years until accomplishes that, if you are a Modder you could use Imperialware meanwhile for your daily modding. 
+It will take a few years until accomplishes that, if you are a Modder you could use Imperialware meanwhile for your daily modding.
+http://www.moddb.com/members/anakin-sklavenwalker
+http://www.moddb.com/games/star-wars-empire-at-war-forces-of-corruption/news/advanced-unit-editor
 
 As User, you would have Imperialware to do anything against your frustration once one of your very best unique units was killed 
 and you want to cheat it back, or also to enables you defeating overpowered AIs. 
@@ -118,7 +120,8 @@ Radio
 NZ 
 And some more I might forget. 
 
-And of course to all the folks at https://stackoverflow.com/ for countless helpful entries that eased my life a lot.
+- And of course to all the folks at https://stackoverflow.com/ for countless helpful entries that eased my life a lot.
+- Thanks to everyone who uploads nice source images to websites like Pixabay.com which are allowed to be used for such projects.
 
 
 --------------------------------------------------------------------------------------------------------------------------------------- 
