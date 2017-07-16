@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="Imperialware.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5" />
+    </startup>
+    <userSettings>
+        <Imperialware.Properties.Settings>
+            <setting name="Game_Language" serializeAs="String">
+                <value>English</value>
+            </setting>
+            <setting name="Mod_Name" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Game_Path_EAW" serializeAs="String">
+                <value>C:\Program Files (x86)\LucasArts\Star Wars Empire at War\GameData\</value>
+            </setting>
+            <setting name="Game_Path_FOC" serializeAs="String">
+                <value>C:\Program Files (x86)\LucasArts\Star Wars Empire at War Forces of Corruption\</value>
+            </setting>
+            <setting name="Game_Path" serializeAs="String">
+                <value>C:\Program Files (x86)\LucasArts\Star Wars Empire at War\GameData\</value>
+            </setting>
+            <setting name="Mods_Directory" serializeAs="String">
+                <value>Mods\</value>
+            </setting>
+            <setting name="Play_Vanilla_Game" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="Transparency" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="Spawn_Mode" serializeAs="String">
+                <value>Space</value>
+            </setting>
+            <setting name="Use_Language" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="Window_Size" serializeAs="String">
+                <value>800, 600</value>
+            </setting>
+            <setting name="Window_Position" serializeAs="String">
+                <value>50, 50</value>
+            </setting>
+            <setting name="Size_Expander_A" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="Size_Expander_B" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="Last_Tab" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="Selected_Faction" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Target_Planet" serializeAs="String">
+                <value>Build_Planet</value>
+            </setting>
+            <setting name="Selected_Xml" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Selected_Galaxy" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Size_Expander_C" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="Close_After_Launch" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="Maximum_Credits" serializeAs="String">
+                <value>10000</value>
+            </setting>
+            <setting name="Maximum_Hull" serializeAs="String">
+                <value>3000</value>
+            </setting>
+            <setting name="Maximum_Shield" serializeAs="String">
+                <value>3000</value>
+            </setting>
+            <setting name="Maximum_Shield_Rate" serializeAs="String">
+                <value>60</value>
+            </setting>
+            <setting name="Maximum_Energy" serializeAs="String">
+                <value>10000</value>
+            </setting>
+            <setting name="Maximum_Energy_Rate" serializeAs="String">
+                <value>1000</value>
+            </setting>
+            <setting name="Maximum_AI_Combat" serializeAs="String">
+                <value>3000</value>
+            </setting>
+            <setting name="Maximum_Projectile" serializeAs="String">
+                <value>50</value>
+            </setting>
+            <setting name="Maximum_Speed" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="Size_Expander_D" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="Size_Expander_E" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="Start_Planet" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Selected_Units" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Checkmate_Color" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="Unit_Type" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Selected_Instance" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Load_Rescent_File" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="Selected_Planet" serializeAs="String">
+                <value>Target_Planet</value>
+            </setting>
+            <setting name="Size_Expander_F" serializeAs="String">
+                <value>True</value>
+            </setting>
+        </Imperialware.Properties.Settings>
+    </userSettings>
+</configuration>

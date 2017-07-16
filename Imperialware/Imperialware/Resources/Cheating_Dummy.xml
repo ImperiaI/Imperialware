@@ -1,0 +1,223 @@
+<?xml version="1.0"?>
+
+<Spaceunits>
+ 
+ <!-- This unit is used to spawn cheating units via Object Script -->
+ <SpaceUnit Name="Cheating_Dummy_Space">
+		<Icon_Name>I_BUTTON_DEATH_STAR_BUILD.TGA</Icon_Name>   
+		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>    
+    <Text_ID>TEXT_BUTTON_HYPERSPACE</Text_ID>
+		<Encyclopedia_Text>TEXT_SFX_MIL_SELECT_3</Encyclopedia_Text>
+    <Encyclopedia_Unit_Class>TEXT_BUTTON_LOAD</Encyclopedia_Unit_Class>
+    <!-- This runs the Script for activating the cheat code when ariving on a GC Map -->
+	  <Lua_Script>Story_Cheating</Lua_Script>
+    <Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, TARGETING, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, UNIT_AI, GARRISON_UNIT, ABILITY_COUNTDOWN </LandBehavior>
+    <Scale_Factor>1.0</Scale_Factor>
+		<Max_Speed>6.0</Max_Speed> 
+		<Max_Rate_Of_Turn>1.5</Max_Rate_Of_Turn>
+		<Max_Thrust> 0.7 </Max_Thrust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Max_Rate_Of_Roll>0.3</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>25</Bank_Turn_Angle>		
+		<Ship_Class>Fighter</Ship_Class>
+  	<Space_Layer>Fighter</Space_Layer>
+    <!-- Allowing the Player to get rid of it in Auto fights -->
+    <AI_Combat_Power>10</AI_Combat_Power>
+    <Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.0</Hyperspace_Speed> 
+    <Victory_Relevant>no</Victory_Relevant> 
+                 			
+    <!-- Build Dependencies -->
+		<Affiliation>Rebel, Empire, Underworld</Affiliation>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Build_Cost_Credits>10</Build_Cost_Credits>
+		<Build_Time_Seconds>5</Build_Time_Seconds>		
+		<Build_Initially_Locked>No</Build_Initially_Locked>		
+		<Tech_Level>1</Tech_Level>  
+    <Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>	
+		<Required_Special_Structures></Required_Special_Structures>
+		<Required_Planets></Required_Planets>
+		<Required_Timeline></Required_Timeline>		
+    <Population_Value>0</Population_Value> 
+    <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+    <Tactical_Build_Cost_Multiplayer>10</Tactical_Build_Cost_Multiplayer>
+    <Tactical_Build_Time_Seconds>5</Tactical_Build_Time_Seconds>
+    <Tactical_Build_Prerequisites />
+    <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+    <Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+    <!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</SpaceUnit>
+  
+  
+  <!-- ========= Only this will work for GC Ground Mode ========= -->
+  <UpgradeObject Name="Cheating_Dummy_Land_GC">  
+    <Text_ID>TEXT_BUTTON_HYPERSPACE</Text_ID>
+    <Encyclopedia_Unit_Class>TEXT_BUTTON_LOAD</Encyclopedia_Unit_Class>
+    <Encyclopedia_Text>TEXT_SFX_MIL_SELECT_3</Encyclopedia_Text>
+    <Icon_Name>I_BUTTON_DEATH_STAR_BUILD.tga</Icon_Name>
+    <CategoryMask>Upgrade</CategoryMask>        
+    <Behavior>DUMMY_UPGRADE</Behavior>
+    <Lua_Script>Story_Cheating</Lua_Script> 
+    
+    <Affiliation>Rebel, Empire, Underworld</Affiliation>
+    <Show_In_Sidebar_While_Building>No</Show_In_Sidebar_While_Building>
+    <Show_In_Sidebar_When_Complete>No</Show_In_Sidebar_When_Complete> 
+    <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+    <Tactical_Build_Cost_Multiplayer>10</Tactical_Build_Cost_Multiplayer>
+    <Tactical_Build_Cost_Campaign>10</Tactical_Build_Cost_Campaign>
+    <Tactical_Build_Time_Seconds>5</Tactical_Build_Time_Seconds>   
+    <Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>  
+    <!--<MULTIPLAYER SKIRMISH VALUES END>-->
+    <SFXEvent_Build_Started>UHD_REMOVED_Upgrade_Progress</SFXEvent_Build_Started>
+    <SFXEvent_Build_Cancelled>UHD_REMOVED_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+    <SFXEvent_Build_Complete>UHD_REMOVED_Upgrade_Complete</SFXEvent_Build_Complete>             
+  </UpgradeObject>
+  
+  
+  <!-- ========================= Ground Unit ========================= -->
+  <GroundVehicle Name="Cheating_Dummy_Unit">
+    <Icon_Name>I_BUTTON_DEATH_STAR_BUILD.TGA</Icon_Name>
+    <Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+    <Text_ID>TEXT_BUTTON_HYPERSPACE</Text_ID>
+    <Encyclopedia_Unit_Class>TEXT_BUTTON_LOAD</Encyclopedia_Unit_Class>
+    <Encyclopedia_Text>TEXT_SFX_MIL_SELECT_3</Encyclopedia_Text>    
+    <!-- This runs the Script for activating the cheat code when ariving on a GC Map -->
+    <Lua_Script>Story_Cheating</Lua_Script>
+    <Behavior> SELECTABLE </Behavior>
+    <LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, UNIT_AI, GARRISON_UNIT, ABILITY_COUNTDOWN </LandBehavior>
+    <Scale_Factor>1.0</Scale_Factor>
+    <Max_Speed>6.0</Max_Speed>
+    <Max_Rate_Of_Turn>1.5</Max_Rate_Of_Turn>        
+    <AI_Combat_Power>10</AI_Combat_Power>      
+  </GroundVehicle>
+              
+  <!-- ======= The Ground Company Container used for Reinforcements in Ground Mode ======= --> 
+  <GroundCompany Name="Cheating_Dummy_Land_SK"> 	  
+    <Company_Units>Cheating_Dummy_Unit</Company_Units> 
+    <Text_ID>TEXT_BUTTON_HYPERSPACE</Text_ID>
+    <Encyclopedia_Unit_Class>TEXT_BUTTON_LOAD</Encyclopedia_Unit_Class>
+    <Encyclopedia_Text>TEXT_SFX_MIL_SELECT_3</Encyclopedia_Text>   	
+    <Icon_Name>I_BUTTON_DEATH_STAR_BUILD.tga</Icon_Name>
+    <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.02 0.02</Radar_Icon_Size>        
+    <Behavior>DUMMY_GROUND_COMPANY</Behavior>
+    <Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>	
+    <Is_Dummy>Yes</Is_Dummy>   
+    <Max_Squad_Size> 1 </Max_Squad_Size>
+    <LOD_Bias>0.5</LOD_Bias>                      
+		<GUI_Row> 1 </GUI_Row>
+           
+    <!-- Build Dependencies -->
+    <Affiliation>Rebel, Empire, Underworld</Affiliation>
+    <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+    <Build_Cost_Credits>10</Build_Cost_Credits>
+    <Build_Time_Seconds>5</Build_Time_Seconds>
+    <Build_Initially_Locked>No</Build_Initially_Locked>
+    <Tech_Level>1</Tech_Level>
+    <Required_Star_Base_Level>0</Required_Star_Base_Level>
+    <Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+    <Required_Special_Structures></Required_Special_Structures>
+    <Required_Planets></Required_Planets>
+    <Required_Timeline></Required_Timeline>
+    <Population_Value>0</Population_Value>
+    <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+    <Tactical_Build_Cost_Multiplayer>10</Tactical_Build_Cost_Multiplayer>
+    <Tactical_Build_Time_Seconds>5</Tactical_Build_Time_Seconds>
+    <Tactical_Build_Prerequisites />
+    <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+    <Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+    <!--<MULTIPLAYER SKIRMISH VALUES END>-->               															
+	</GroundCompany>
+  
+  
+  <!-- ====== Might be needed for inflicting damage via Lua script ====== -->
+  <HardPoint Name="HP_Cheating_Dummy">
+    <Model_To_Attach></Model_To_Attach>
+    <Attachment_Bone>Root</Attachment_Bone>
+    <Collision_Mesh></Collision_Mesh>
+    <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
+    <Is_Targetable>no</Is_Targetable>
+    <Is_Destroyable>no</Is_Destroyable>
+    <Health>300</Health>
+    <Type>HARD_POINT_ENGINE</Type>
+    <Engine_Particles>HP_E_MAINENGINES</Engine_Particles>
+    <Damage_Particles>HP_E_EmitDamage</Damage_Particles>
+    <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+    <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>  
+  </HardPoint>
+   
+  <!-- ========================= Hyperspace_Markers ========================= -->
+  <MiscObject Name="Hyperspace_Jump_Target">
+    <Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
+    <Scale_Factor>1.0</Scale_Factor>
+    <Behavior>DUMMY_ORBITAL_STRUCTURE, SPACE_OBSTACLE, IDLE</Behavior>
+    <SpaceBehavior>ABILITY_COUNTDOWN, SELF_DESTRUCT, UNIT_AI, HUNT</SpaceBehavior>
+    <Layer_Z_Adjust>-5.0</Layer_Z_Adjust>
+    <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+    <Remove_Upon_Death>true</Remove_Upon_Death>
+    <Space_Layer> StaticObject </Space_Layer>
+    <Lua_Script>ObjectScript_HW_Despawn</Lua_Script>
+  </MiscObject>
+  
+  
+  
+  <Marker Name="Hyperspace_Huge">
+    <Text_ID>TEXT_NONE</Text_ID>
+    <Space_Model_Name>p_hyperspacewindow_h.ALO</Space_Model_Name>
+    <Behavior>SPACE_OBSTACLE</Behavior>
+    <Lua_Script>ObjectScript_Hyper_Space</Lua_Script>
+  </Marker>
+  
+	<Marker Name="Hyperspace_Large">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>p_hyperspacewindow_b.ALO</Space_Model_Name>
+		<Behavior>SPACE_OBSTACLE</Behavior>
+		<Lua_Script>ObjectScript_Hyper_Space</Lua_Script>
+	</Marker>
+
+	<Marker Name="Hyperspace_Medium">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>p_hyperspacewindow_m.ALO</Space_Model_Name>
+		<Behavior>SPACE_OBSTACLE</Behavior>
+		<Lua_Script>ObjectScript_Hyper_Space</Lua_Script>
+	</Marker>
+
+	<Marker Name="Hyperspace_Small">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>p_hyperspacewindow_s.ALO</Space_Model_Name>
+		<Behavior>SPACE_OBSTACLE</Behavior>
+		<Lua_Script>ObjectScript_Hyper_Space</Lua_Script>
+	</Marker>
+  
+  
+</Spaceunits>
+
+
+<!-- ========================= Hyperspace Sounds ========================= -->  
+<!--SFXEvents>
+
+  <SFXEvent Name="Hyper_Jump_Out">
+    <Use_Preset>Preset_UR</Use_Preset>
+    <Samples>
+      Data\Audio\Weapon\Replicator_Medium_Impulse.wav,
+      Data\Audio\Explosions\Explosion_Frigate_Death_4.wav,
+    </Samples>
+    <Min_Volume>120</Min_Volume>
+    <Max_Volume>125</Max_Volume>
+  </SFXEvent>
+
+  <SFXEvent Name="Hyper_Jump_In">
+    <Use_Preset>Preset_UR</Use_Preset>
+    <Samples>Data\Audio\Effects\Missile_Death_3.wav</Samples>
+  </SFXEvent>
+
+  <SFXEvent Name="Hyper_Drive_Blown">
+    <Use_Preset>Preset_UR</Use_Preset>
+    <Samples>Data\Audio\Explosions\Explosion_Corvette_Death_5.wav</Samples>
+  </SFXEvent>
+</SFXEvents-->
+
+<!-- ========================= End of File ========================= -->  

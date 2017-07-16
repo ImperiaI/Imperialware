@@ -1,0 +1,150 @@
+// I am a Comment
+:: Me too
+# And me, Comment as well        
+
+
+// ============== User Interface ==============
+Window_X_Position = 50
+Window_Y_Position = 50
+
+Window_Width = 910
+Window_Height = 670
+Last_Width = 240
+
+Transparency = 1
+Mod_Image_Size = 500
+
+
+// ====== Color Settings ======
+Color_01 = 62, 198, 253, 255
+Color_02 = 150, 150, 150, 255
+Color_03 = 210, 210, 210, 255
+Color_04 = 1, 1, 10, 255
+Color_05 = 30, 30, 35, 255
+Color_06 = 62, 198, 253, 255
+Color_07 = 56, 54, 54, 255
+
+Button_Color = Stargate
+// ===========================================
+                   
+Installed_Version = 0.1  
+Debug_Mode = false
+Auto_Apply = true
+Allowed_Patching = true
+Use_Mod_Savegame_Dir = false
+
+
+Show_Mod_Button = true
+Show_Addon_Button = true
+
+Launch_Button_X = 645
+Launch_Button_Y = 424
+
+Mod_Button_X = 530
+Mod_Button_Y = 482
+
+Addon_Button_X = 703
+Addon_Button_Y = 309
+
+
+
+Auto_Theme = true
+Auto_Color = true
+Cycle_Mod_Image = true
+Checkmate_Color = false
+
+// Segment Buttons
+Planet_Switch = Galaxy
+Teleportation_Mode = Planets
+
+Selected_Theme = "C:\Program Files\Imperialware\Themes\Black\"
+Background_Image_Path = "C:\Program Files\Imperialware\Themes\Black\"
+Background_Image_A = Background.jpg
+Background_Image_B = Background_Small.jpg
+Dashboard_Mod = Andromeda
+Selected_Dashboard = Commonwealth
+
+Last_Tab = 6
+Size_Expander_A = true
+Size_Expander_B = true
+Size_Expander_C = true
+Size_Expander_D = true
+Size_Expander_E = true
+Size_Expander_F = true
+Size_Expander_G = true
+Size_Expander_H = true
+Size_Expander_I = true
+Size_Expander_J = true
+Size_Expander_K = true
+
+// ================ Game Values ================
+
+Game_Path = 
+Game_Path_EAW = 
+Game_Path_FOC = 
+Savegame_Path = 
+Program_Directory = 
+
+Windowed_Mode = false
+Game_Language = English
+Language_Mode = Game
+Use_Language = true
+Evade_Language = true
+Play_Vanilla_Game = false
+Close_After_Launch = false
+Copy_Art_Into_Editor = false
+
+Map_Editor_Game = 
+Map_Editor_EAW = 
+Map_Editor_FOC = 
+
+
+Mod_Name = 
+Host_Mod = 
+Loaded_Addon = 
+Last_Addon = 
+Selected_Object = Mods
+EAW_Savegame_Count = 0
+FOC_Savegame_Count = 0
+
+Image_Cycle = 
+Moved_Images = 
+
+
+
+
+// ================ XML Values ================
+
+Start_Planet = 
+Target_Planet =
+Selected_Planet = Build_Planet
+
+Unit_Type = SpaceUnit
+Selected_Xml = 
+Last_Type_Search = 
+Last_Editor_Xml = 
+Selected_Instance = 
+Selected_Team = 
+GMU =  
+ 
+Selected_Faction = Human_Player
+All_Factions =  
+Playable_Factions = 
+Selected_Galaxy =
+Found_Planets = 
+Selected_Units =  
+
+
+Load_Rescent_File = true
+Show_Load_Issues = true
+Show_Tag_Issues = true
+Add_Core_Code = false
+
+Maximal_Value_Class = 5
+
+Costum_Tag_1_Name = <Tag_1_Name>
+Costum_Tag_2_Name = <Tag_2_Name>
+Costum_Tag_3_Name = <Tag_3_Name>
+Costum_Tag_4_Name = <Tag_4_Name>
+Costum_Tag_5_Name = <Tag_5_Name>
+Costum_Tag_6_Name = <Tag_6_Name>
