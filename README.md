@@ -7,6 +7,15 @@ I'm so pleased to present you a new gear I wrote for Star Wars - EAW and FOC.
 It's Name is Imperialware and it's a Cheating Tool, Modmanager, Unit Creator and Universal Launcher. 
 
 
+Download to built the .exe file (v0.1):
+https://mega.nz/#!PFsVQSiI!d9jL1WtthS7wfiOsjnE-aIrraXz7ikjjOx-oj53eeGA
+
+
+-/ How to use: I prepared over 2 Hours of presentation video material in 5 tutorials for you: 
+https://www.youtube.com/playlist?list=PLild8kZ8-aRZcGuWpqFY932TmKvSGLky5
+
+
+
 It is a multifunction tool, a Mod Manager that is built to launch any mod for EAW and FOC. 
 It's the first application to support mod mods, in order to allow little changes to mods, 
 without breaking their usual functionality. 
@@ -36,12 +45,6 @@ I thought it will be a good practice for me to keep the learned stuff in my head
 However, Imperialware is an open source project so anyone is allowed to include Imperialware to the download of his Mod and to modify or further distribute it at will. 
 In this case I'd be thankful to see myself credited in your documentation but this is not required.
 
-
-
--/ How to use: Enough of useless historical information now, lets see what fun stuff you are able to do with Imperialware, 
-I prepared over 2 Hours of presentation video material in 5 tutorials for you: 
-
-[Tutorials einfügen bitte] 
 
 
 - Tested and verified to work on Windows 7, 8.1 and Windows 10 
